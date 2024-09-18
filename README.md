@@ -1,6 +1,6 @@
 # RAG-based QA Bot with Cohere and Pinecone
 
-### Special Thanks to [Sample Set] for assigning this exciting challenge and helping me grow my skills!
+### Special Thanks to 'Sample Set' for assigning this exciting challenge and helping me grow my skills!
 
 This repository contains an implementation of a **Retrieval-Augmented Generation (RAG) model** for a Question Answering (QA) bot. The bot retrieves relevant information from documents stored in a vector database (Pinecone) and generates coherent answers using Cohere's language model.
 
