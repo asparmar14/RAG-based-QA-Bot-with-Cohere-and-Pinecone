@@ -156,13 +156,16 @@ Here are a few more example queries you can try after uploading a document:
 ### Directory Structure
 
     ```bash
-    ├── app.py               # Main application file (Streamlit/Gradio frontend)
-    ├── embeddings.py        # Code for embedding documents and queries
-    ├── pinecone_util.py      # Pinecone interaction utilities
-    ├── cohere_util.py        # Cohere interaction utilities
-    ├── requirements.txt      # Required Python libraries
-    ├── Dockerfile            # Docker configuration for deployment
-    └── README.md             # Project documentation
+    ├── __pycache__                
+    ├── backend.py/                       # All backend code here
+    ├── DockerFile/                       # Docker-specific configuration
+    ├── gradio_app.py/                    # Gradio specific files
+    ├── notebooks/                        # Jupyter notebooks for experimentation
+        └── part-1_colab-notebook.ipynb
+    ├── requirements.txt/                 # Store requirements related files
+    ├── streamlit_app.py/                 # Streamlit specific files
+    └── assets/                           # Any images or static assets
+        └── Streamlit-app.jpg
 
 ## Acknowledgments
 
